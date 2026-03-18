@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kvíz admin felület</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+{% if messages %} {% for message in messages %} <script> alert("{{ message }}"); </script> {% endfor %} {% endif %}
+    <div class="container">
+        <h1>Kvíz admin felülete</h1>
+        <p align="center">
+            <a href="question/" class="add-link">Kérdés hozzáadás</a>
+            <a href="http://localhost:8888/notebooks/analysis/analysis.ipynb" class="add-link">Adatelemzés</a>
+        </p>
+    </div>
+</body>
+</html>

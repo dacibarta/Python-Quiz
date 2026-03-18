@@ -1,0 +1,116 @@
+/* Alap beállítások */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Oldal tartalom */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Címek */
+h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Linkek */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Gomb jellegű link */
+.add-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 4px;
+}
+
+.add-link:hover {
+    background-color: #1558b0;
+}
+
+/* Táblázat feletti cím */
+.section-title {
+    margin-top: 30px;
+}
+
+/* ---------- FORMOK ---------- */
+
+form {
+    margin-top: 20px;
+}
+
+/* Form sor */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Form group - a label/input blokkosítva és térközzel */
+.form-group label {
+    display: block;
+    margin-top: 20px;  /* felső térköz */
+    font-weight: bold;
+}
+
+.form-group input {
+    display: block;
+    margin-top: 5px;    /* label-től való kis távolság */
+    margin-bottom: 20px; /* alatta nagyobb térköz */
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Input mezők */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #1a73e8;
+    box-shadow: 0 0 4px rgba(26, 115, 232, 0.3);
+}
+
+/* Submit gomb */
+input[type="submit"],
+button {
+    cursor: pointer;
+    border: none;
+}
